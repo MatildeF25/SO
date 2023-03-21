@@ -30,7 +30,7 @@ int main(int argc, int* argv[]){
 
         if(pid==0){
             
-            printf("pid do filho %d - %d\n", k+1,getpid());
+            printf("pid do filho %d - %d\n", k+1, getpid());
             
             for(int h = 0; h<collumn;h++){
                 if(needle==matrix[k][h]){
