@@ -41,5 +41,5 @@ int main(int argc, char* argv[]){
     char comando2[] = "sleep 10";
     char comando3[] = "ps";
 
-    mySystem(comando3);
-}
+    mySystem(comando1);
+}   

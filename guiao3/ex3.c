@@ -12,7 +12,7 @@ int main (int argc, char * argv[]){
         pid_t pid = fork();
 
         if(pid==0){
-            execlp(argv[i+1], NULL);
+            execlp(argv[i+1],NULL);
             _exit(4);
         }
 
